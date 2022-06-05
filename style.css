@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 380px;
+  width: 100%;
+}
+
+/* header-section */
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.container {
+  width: 300px;
+  height: 330px;
+  position: relative;
+  background-color: #eeeeee;
+}
+span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  color: white;
+}
+.top {
+
+  height: 150px;
+
+  background-size: cover;
+  margin: 10px 15px 10px 10px;
+}
+.first{
+  background-image: url(images.homework/flow01.png);
+}
+.second{
+  background-image: url(images.homework/flow02.png);
+}
+.third{
+  background-image: url(images.homework/flow03.png);
+}
+.large-box {
+
+
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.text {
+  padding: 0 10px;
+}
+h3 {
+  padding-bottom: 5px;
+}
+/* footer section */
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #aaaaaa;
+}
+
+.click {
+  text-align: center;
+}
+
+.bottom {
+  width: 0 auto;
+  color: white;
+}
+@media screen and (max-width:768px){
+
+  *{
+    transition: all 150ms;
+  }
+
+  .large-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .container {
+    /* width: 300px; */
+    width: 90%;
+    height: 330px;
+    position: relative;
+    background-color: #eeeeee;
+  }
+
+  .first{
+    background-image: url(flow01);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    min-height: 150px;
+  }
+
+  .second{
+    background-image: url(flow02);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 150px;
+  }
+
+  .third{
+    background-image: url(flow03);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 150px;
+  }
+
+  footer {
+    height: 50px;
+    width: 100%;
+    background-color: #aaaaaa;
+  }
+}
