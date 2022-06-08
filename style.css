@@ -29,26 +29,25 @@ header {
 }
 span {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   background-color: orange;
   color: white;
 }
 .top {
-
   height: 150px;
-
   background-size: cover;
   margin: 10px 15px 10px 10px;
 }
 .first{
-  background-image: url(images.homework/flow01.png);
+  width: 20%;
+  background-image: url(img/flow01.jpg);
 }
 .second{
-  background-image: url(images.homework/flow02.png);
+  background-image: url(img/flow02.jpg);
 }
 .third{
-  background-image: url(images.homework/flow03.png);
+  background-image: url(img/flow03.jpg);
 }
 .large-box {
 
