@@ -102,7 +102,7 @@ footer {
   }
 
   .first{
-    background-image: url(flow01);
+    background-image: url(img/flow01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -110,7 +110,7 @@ footer {
   }
 
   .second{
-    background-image: url(flow02);
+    background-image: url(img/flow02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -118,7 +118,7 @@ footer {
   }
 
   .third{
-    background-image: url(flow03);
+    background-image: url(img/flow03.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
